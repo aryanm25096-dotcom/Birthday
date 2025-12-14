@@ -1229,15 +1229,18 @@ section {
 }
 
 /* ========================================
-   Panda Mascot (Image Replacement)
+   Panda Mascot / Video (Image Replacement)
    ======================================== */
 .panda-mascot {
-  width: 180px;
+  width: 280px;
+  max-width: 90%;
   height: auto;
   margin: 30px auto;
   display: block;
-  animation: pandaFloat 6s ease-in-out infinite, pandaPulse 4s ease-in-out infinite;
+  border-radius: 20px;
+  animation: pandaFloat 6s ease-in-out infinite;
   filter: drop-shadow(0 10px 30px rgba(246, 193, 204, 0.4));
+  box-shadow: 0 15px 40px rgba(201, 74, 74, 0.2);
 }
 
 @keyframes pandaFloat {
