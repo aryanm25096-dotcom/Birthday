@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday 🌸</title>
+  <meta name="description" content="A special birthday scrapbook made with love">
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navigation Dots -->
+  <nav class="nav-dots">
+    <div class="nav-dot active" data-section="landing" data-label="Home"></div>
+    <div class="nav-dot" data-section="letters" data-label="Letters"></div>
+    <div class="nav-dot" data-section="cake" data-label="Cake"></div>
+    <div class="nav-dot" data-section="memories" data-label="Memories"></div>
+    <div class="nav-dot" data-section="special-message" data-label="Message"></div>
+    <div class="nav-dot" data-section="finale" data-label="Surprise"></div>
+  </nav>
+
+  <!-- ========================================
+       Landing Section
+       ======================================== -->
+  <section id="landing">
+    <div class="floating-elements"></div>
+
+    <!-- Background Stickers (Corner Only) -->
+    <div class="section-stickers">
+      <img src="assets/stickers/bow.png" alt=""
+        class="sticker sticker-lg sticker-corner-tl sticker-float sticker-tilt-left">
+      <img src="assets/stickers/sparkles.png" alt=""
+        class="sticker sticker-md sticker-corner-br sticker-float sticker-delay-1">
+    </div>
+
+    <div class="container">
+      <div class="landing-title fade-in">
+        <h1 class="handwriting">We love you 💕</h1>
+      </div>
+
+      <p class="fade-in fade-in-delay-1" style="margin-bottom: 30px; font-size: 1.3rem;">
+        A little something special, just for you ✨
+      </p>
+
+      <div class="polaroid-grid fade-in fade-in-delay-2">
+        <div class="polaroid">
+          <img src="images/Beautiful you ✨.jpeg" alt="Beautiful you"
+            style="width: 180px; height: 180px; object-fit: cover;">
+          <p class="polaroid-caption">Beautiful you ✨</p>
+        </div>
+
+        <div class="polaroid">
+          <img src="images/Full of love.jpeg" alt="Full of love"
+            style="width: 180px; height: 180px; object-fit: cover;">
+          <p class="polaroid-caption">Full of love</p>
+        </div>
+
+        <div class="polaroid">
+          <img src="images/So precious.jpeg" alt="So precious" style="width: 180px; height: 180px; object-fit: cover;">
+          <p class="polaroid-caption">So precious</p>
+        </div>
+
+        <div class="polaroid">
+          <img src="images/Always blooming.jpeg" alt="Always blooming"
+            style="width: 180px; height: 180px; object-fit: cover;">
+          <p class="polaroid-caption">Always blooming</p>
+        </div>
+      </div>
+
+      <a href="#letters" class="btn fade-in fade-in-delay-3">
+        Open Your Gift 💌
+      </a>
+    </div>
+  </section>
+
+  <!-- ========================================
+       Letters Section
+       ======================================== -->
+  <section id="letters">
+    <!-- Background Stickers (Corner Only) -->
+    <div class="section-stickers">
+      <img src="assets/stickers/hearts.png" alt=""
+        class="sticker sticker-sm sticker-corner-tr sticker-float sticker-tilt-right">
+      <img src="assets/stickers/bow.png" alt=""
+        class="sticker sticker-md sticker-corner-bl sticker-float sticker-delay-2 sticker-tilt-left">
+    </div>
+
+    <div class="container">
+      <h2 class="fade-in">💌 Letters For You 💌</h2>
+      <p class="fade-in fade-in-delay-1" style="margin: 20px auto;">
+        Click on each envelope to read a special message
+      </p>
+
+      <div class="letters-grid">
+        <div class="envelope fade-in fade-in-delay-1" data-letter="1">
+          <div class="envelope-body"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-seal">💗</div>
+          <span class="envelope-label">Letter 1</span>
+        </div>
+
+        <div class="envelope fade-in fade-in-delay-2" data-letter="2">
+          <div class="envelope-body"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-seal">💗</div>
+          <span class="envelope-label">Letter 2</span>
+        </div>
+
+        <div class="envelope fade-in fade-in-delay-3" data-letter="3">
+          <div class="envelope-body"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-seal">💗</div>
+          <span class="envelope-label">Letter 3</span>
+        </div>
+
+        <div class="envelope fade-in fade-in-delay-4" data-letter="4">
+          <div class="envelope-body"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-seal">💗</div>
+          <span class="envelope-label">Letter 4</span>
+        </div>
+      </div>
+
+      <a href="#cake" class="btn btn-secondary fade-in mt-40">
+        Continue the Journey 🎂
+      </a>
+    </div>
+
+    <!-- Letter Overlay -->
+    <div class="letter-overlay">
+      <div class="letter-content">
+        <p class="letter-text"></p>
+        <button class="btn letter-close">Close 💕</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       Cake Section
+       ======================================== -->
+  <section id="cake">
+    <!-- Background Stickers (Corner Only) -->
+    <div class="section-stickers">
+      <img src="assets/stickers/sparkles.png" alt=""
+        class="sticker sticker-md sticker-corner-tl sticker-float sticker-tilt-slight">
+      <img src="assets/stickers/flowers.png" alt=""
+        class="sticker sticker-md sticker-corner-br sticker-float sticker-delay-1 sticker-tilt-right">
+    </div>
+
+    <div class="container">
+      <h2 class="fade-in">🎂 Make a Wish! 🎂</h2>
+
+      <div class="cake-container fade-in fade-in-delay-1">
+        <div class="cake-illustration">
+          <div class="cake">
+            <!-- Candles -->
+            <div class="candles">
+              <div class="candle"></div>
+              <div class="candle"></div>
+              <div class="candle"></div>
+            </div>
+
+            <!-- Cake Tiers -->
+            <div class="cake-tier top">
+              <div class="cake-frosting"></div>
+            </div>
+            <div class="cake-tier middle">
+              <div class="cake-frosting"></div>
+            </div>
+            <div class="cake-tier bottom">
+              <div class="cake-frosting"></div>
+            </div>
+          </div>
+
+          <!-- Sparkles -->
+          <div class="cake-sparkles"></div>
+        </div>
+
+        <p class="cake-message fade-in fade-in-delay-2">
+          May all your wishes come true 🤍
+        </p>
+      </div>
+
+      <a href="#memories" class="btn fade-in fade-in-delay-3 mt-40">
+        View Our Memories 📸
+      </a>
+    </div>
+  </section>
+
+  <!-- ========================================
+       Memories Section
+       ======================================== -->
+  <section id="memories">
+    <!-- Background Stickers (Corner Only) -->
+    <div class="section-stickers">
+      <img src="assets/stickers/bow.png" alt=""
+        class="sticker sticker-md sticker-corner-tr sticker-float sticker-tilt-right">
+      <img src="assets/stickers/hearts.png" alt=""
+        class="sticker sticker-sm sticker-corner-bl sticker-float sticker-delay-1">
+    </div>
+
+    <div class="container">
+      <h2 class="fade-in">📸 Our Memories 📸</h2>
+      <p class="fade-in fade-in-delay-1" style="margin: 20px auto;">
+        Every moment with you is a treasure
+      </p>
+
+      <div class="memories-wall">
+        <div class="memory-polaroid fade-in">
+          <div class="memory-tape"></div>
+          <div
+            style="width: 100%; height: 200px; background: linear-gradient(135deg, #FFE4E9 0%, #F6C1CC 100%); display: flex; align-items: center; justify-content: center; font-size: 50px;">
+            🌅
+          </div>
+          <p class="memory-caption">Golden moments ✨</p>
+        </div>
+
+        <div class="memory-polaroid fade-in fade-in-delay-1">
+          <span class="memory-bow">🎀</span>
+          <div
+            style="width: 100%; height: 200px; background: linear-gradient(135deg, #FFF6EC 0%, #FFE4E1 100%); display: flex; align-items: center; justify-content: center; font-size: 50px;">
+            🎭
+          </div>
+          <p class="memory-caption">Crazy adventures</p>
+        </div>
+
+        <div class="memory-polaroid fade-in fade-in-delay-2">
+          <div class="memory-tape"></div>
+          <div
+            style="width: 100%; height: 200px; background: linear-gradient(135deg, #E8D5E0 0%, #D4A5B9 100%); display: flex; align-items: center; justify-content: center; font-size: 50px;">
+            🌙
+          </div>
+          <p class="memory-caption">Late night talks</p>
+          <span class="memory-sticker">⭐</span>
+        </div>
+
+        <div class="memory-polaroid fade-in fade-in-delay-3">
+          <span class="memory-bow">🎀</span>
+          <div
+            style="width: 100%; height: 200px; background: linear-gradient(135deg, #FFF0F5 0%, #FFB6C1 100%); display: flex; align-items: center; justify-content: center; font-size: 50px;">
+            🍰
+          </div>
+          <p class="memory-caption">Sweet celebrations</p>
+        </div>
+
+        <div class="memory-polaroid fade-in fade-in-delay-4">
+          <div class="memory-tape"></div>
+          <div
+            style="width: 100%; height: 200px; background: linear-gradient(135deg, #E6E6FA 0%, #DDA0DD 100%); display: flex; align-items: center; justify-content: center; font-size: 50px;">
+            💫
+          </div>
+          <p class="memory-caption">Magical times</p>
+        </div>
+
+        <div class="memory-polaroid fade-in fade-in-delay-4">
+          <span class="memory-bow">🎀</span>
+          <div
+            style="width: 100%; height: 200px; background: linear-gradient(135deg, #FFDAB9 0%, #FFCBA4 100%); display: flex; align-items: center; justify-content: center; font-size: 50px;">
+            🌻
+          </div>
+          <p class="memory-caption">Sunshine days</p>
+          <span class="memory-sticker">💕</span>
+        </div>
+      </div>
+
+      <a href="#special-message" class="btn fade-in mt-40">
+        Read My Message 💌
+      </a>
+    </div>
+  </section>
+
+  <!-- ========================================
+       Special Message Section
+       ======================================== -->
+  <section id="special-message">
+    <!-- Background Stickers (Corner Only) -->
+    <div class="section-stickers">
+      <img src="assets/stickers/flowers.png" alt=""
+        class="sticker sticker-lg sticker-corner-tl sticker-float sticker-tilt-left">
+      <img src="assets/stickers/sparkles.png" alt=""
+        class="sticker sticker-sm sticker-corner-br sticker-float sticker-delay-1">
+    </div>
+
+    <div class="container">
+      <h2 class="message-title fade-in">To my favourite person 💗</h2>
+
+      <div class="message-container fade-in fade-in-delay-1">
+        <div class="message-body">Dear Birthday Girl,
+
+          On this beautiful day, I want you to know just how incredibly special you are to me. Words will never be
+          enough to express how much you mean to everyone whose life you've touched.
+
+          You have this magical way of making everything brighter just by being yourself. Your kindness, your laughter,
+          your warmth - they're gifts that you share with the world every single day.
+
+          As you step into this new year of your life, I hope you know that you are loved more than you could ever
+          imagine. You are strong, beautiful, and capable of achieving anything you set your heart to.
+
+          Thank you for being you. Thank you for every smile, every hug, every moment of joy you've brought into our
+          lives.
+
+          Here's to another year of dreams coming true, adventures waiting to happen, and memories yet to be made.
+
+          Happy Birthday, beautiful soul! 🌸
+
+          With all my love,
+          Forever yours 💕</div>
+      </div>
+
+      <a href="#finale" class="btn fade-in fade-in-delay-2 mt-40">
+        One Last Surprise 🎁
+      </a>
+    </div>
+  </section>
+
+  <!-- ========================================
+       Final Surprise Section
+       ======================================== -->
+  <section id="finale">
+    <div class="confetti-container"></div>
+
+    <!-- Background Stickers (Corner Only + More Sparkles) -->
+    <div class="section-stickers">
+      <img src="assets/stickers/bow.png" alt=""
+        class="sticker sticker-md sticker-corner-tl sticker-float sticker-tilt-left">
+      <img src="assets/stickers/sparkles.png" alt=""
+        class="sticker sticker-lg sticker-corner-tr sticker-float sticker-delay-1">
+      <img src="assets/stickers/hearts.png" alt=""
+        class="sticker sticker-md sticker-corner-bl sticker-float sticker-delay-2">
+      <img src="assets/stickers/sparkles.png" alt=""
+        class="sticker sticker-md sticker-corner-br sticker-float sticker-delay-3">
+    </div>
+
+    <div class="finale-content">
+      <h1 class="finale-title fade-in">Happiest Birthday! 🤍</h1>
+      <p class="finale-subtitle fade-in fade-in-delay-1">Welcome to your 20s ✨</p>
+      <!-- Panda Mascot Image (Replaces Emoji) -->
+      <img src="assets/stickers/teddy-panda.png" alt="Cute Panda" class="panda-mascot fade-in fade-in-delay-2">
+
+      <p class="fade-in fade-in-delay-3" style="font-size: 1.3rem; max-width: 500px; margin: 20px auto;">
+        May this new chapter bring you endless happiness, beautiful adventures,
+        and all the love your heart can hold.
+      </p>
+
+      <div class="fade-in fade-in-delay-4" style="margin-top: 30px;">
+        <a href="#landing" class="btn btn-secondary">
+          ↑ Back to Top
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>
