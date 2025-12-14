@@ -94,32 +94,50 @@ function initEnvelopes() {
     const closeBtn = document.querySelector('.letter-close');
 
     const letters = {
-        1: `Happiestt Birthdayyy diaaaaaa🎂💫
+        1: `Happiest Birthday Diaaa! 🎂💫
+
 From a random meet on the first day at Lerner Arena to becoming one of my fav people 🥹🤍 — this first semester has been so beautiful because of you.
+
 You seriously have the prettiest smile ever, and I hope you keep laughing and smiling like this always 🫶 never change pls.
+
 So grateful to call you my friend. Manifesting us surviving all 4 years of college together (and life too 🧿✨).
+
 Hope today is as cute and special as you are 💖🎉`,
 
         2: `Happy Birthday Diaa DIY! 💛✨
- I wish you lots of happiness, success, good health, and peace in life. May all your dreams come true (like complete attendance). 
- Always stay smiling and positive. Stay with us and don’t forget to share all your shares and stocks 😁. Best of luck for your 
- end sem exam. Enjoy your day and have a great year ahead! 🎉💫`,
+
+I wish you lots of happiness, success, good health, and peace in life. May all your dreams come true (like complete attendance).
+
+Always stay smiling and positive. Stay with us and don't forget to share all your shares and stocks 😁
+
+Best of luck for your end sem exam. Enjoy your day and have a great year ahead! 🎉💫`,
 
         3: `Happy Birthday Diaaa 🎉🤍
-Being around you this semester has taught me a lot — from college basics to some very useful skills 😌😂.
-You’re an amazing friend and such a fun person to be with.
-Wishing you the happiest day today and always.
-Stay happy, keep smiling, and never stop being you ✨
-And yes, don’t forget to always share your food… and maybe your money too 😄💖
+
+Being around you this semester has taught me a lot — from college basics to some very useful skills 😌😂
+
+You're an amazing friend and such a fun person to be with.
+
+Wishing you the happiest day today and always. Stay happy, keep smiling, and never stop being you ✨
+
+And yes, don't forget to always share your food… and maybe your money too 😄💖
+
 Have the best birthday ever! 🎂💫`,
 
         4: `Happy Birthday Diaaa 😎🎉
+
 Saare gifts abhi hi chahiye ya thoda wait karoge?
+
 Gift mil jaayega (jab aap paise udhar de doge 😌).
-Waise bhi next gift aur bhi acha hoga — trip pe milega, so it’s a surprise ✨✈️
+
+Waise bhi next gift aur bhi acha hoga — trip pe milega, so it's a surprise ✨✈️
+
 Aur haan, upar ke 3 letters padh ke guess karo kisne kaunsa likha hai.
+
 Agar sahi guess kiya, toh Dia sabko 1k degi 💸
+
 Aur agar galat hua… toh Dia mujhe 3k degi, aur main sabko 1k–1k dunga 😏😂
+
 Enjoy your day 🤍🎂`
     };
 
