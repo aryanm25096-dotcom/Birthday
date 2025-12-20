@@ -305,7 +305,38 @@ section {
   height: 180px;
   object-fit: cover;
   object-position: top center;
+  transition: object-position 0.3s ease;
 }
+
+/* Photo Alignment Utilities */
+.obj-pos-center {
+  object-position: center center !important;
+}
+
+.obj-pos-top {
+  object-position: top center !important;
+}
+
+.obj-pos-bottom {
+  object-position: bottom center !important;
+}
+
+.obj-pos-right {
+  object-position: right center !important;
+}
+
+.obj-pos-left {
+  object-position: left center !important;
+}
+
+.obj-pos-custom-y-30 {
+  object-position: center 30% !important;
+}
+
+.obj-pos-custom-y-40 {
+  object-position: center 40% !important;
+}
+
 
 .polaroid-caption {
   font-family: var(--font-heading);
