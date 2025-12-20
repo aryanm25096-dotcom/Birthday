@@ -301,11 +301,7 @@ section {
 }
 
 .polaroid img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  object-position: top center;
-  transition: object-position 0.3s ease;
+  width: 280px;
 }
 
 /* Photo Alignment Utilities */
@@ -743,9 +739,9 @@ section {
 
 .memories-wall {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
 }
@@ -798,10 +794,14 @@ section {
 
 .memory-polaroid img {
   width: 100%;
-  height: 200px;
+  height: 320px;
   object-fit: cover;
-  object-position: top center;
+  object-position: center;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
 }
+
+
 
 .memory-caption {
   position: absolute;
@@ -896,6 +896,7 @@ section {
   color: var(--warm-brown);
   text-align: left;
   padding-left: 40px;
+  white-space: pre-wrap;
 }
 
 .message-body p {
